@@ -1,0 +1,37 @@
+.parent-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 95vw;
+  margin-top: 100px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aquamarine;
+  width: 80%;
+  height: 100vh;
+  margin: 50px;
+  padding: 20px;
+}
+.scroll-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #213547;
+  padding: 10px;
+  border-radius: 5px;
+}
+html {
+  scroll-behavior: smooth;
+}

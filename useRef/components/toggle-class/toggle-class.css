@@ -1,0 +1,22 @@
+.toggle-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.togglebox {
+  background-color: rgb(16, 123, 152);
+  color: white;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.highlight {
+  background-color: rgb(108, 59, 222);
+  transform: scale(1.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
